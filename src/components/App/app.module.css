@@ -3,6 +3,7 @@
 }
 
 .container {
+  min-width: 588px;
   padding: 0;
   background-color: #f2f2f2;
   box-sizing: border-box;
