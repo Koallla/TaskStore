@@ -1,0 +1,11 @@
+.select_container {
+  text-align: left;
+  width: 260px;
+  transition: all 0.3s ease-in-out;
+}
+
+.selectCustom:hover {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: white;
+}

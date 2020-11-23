@@ -1,0 +1,35 @@
+.radio {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input[type='radio'] {
+  width: 17px;
+  height: 17px;
+  -webkit-appearance: none;
+  background-color: #f2f2f2;
+  outline: none;
+  outline-offset: 0.1em;
+  border-radius: 5px;
+  margin: 0;
+  box-shadow: 0px 0px 0px 3px #f2f2f2;
+  transition: all 0.6s ease;
+  margin-right: 13px;
+}
+
+input[type='radio']:checked {
+  display: inline-block;
+  outline: none;
+  background-image: linear-gradient(to right, #bf911a, #e9b32c);
+  border-radius: 5px;
+}
+
+.radio__text {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}

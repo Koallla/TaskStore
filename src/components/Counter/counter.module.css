@@ -1,0 +1,28 @@
+.container {
+  background-color: #e2e9f0;
+  width: 92px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  background-color: #d8e3ee;
+}
+.container button,
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-color: inherit;
+  outline: none;
+  border-style: none;
+  font-size: 24px;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+}

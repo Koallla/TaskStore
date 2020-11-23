@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
+import Cardlist from '../CardList/CardList';
 import styles from './app.module.css';
 
 export default class App extends Component {
-  componentDidMount() {
-    console.log('Hello');
-  }
-
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
+  state = {};
 
   render() {
     return (
       <div className={styles.container}>
-        <h1 className={styles.title}>Hello bro</h1>
+        <Cardlist />
       </div>
     );
   }
