@@ -1,0 +1,13 @@
+.button {
+  width: 302px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #bf911a, #e9b32c);
+  transition: all 0.3s;
+}
+
+.button:hover {
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
